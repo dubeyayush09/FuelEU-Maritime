@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import RoutesTab from "./tabs/RoutesTab";
 import CompareTab from "./tabs/CompareTab";
-// import BankingTab from "./tabs/BankingTab";
+import BankingTab from "./tabs/BankingTab";
 // import PoolingTab from "./tabs/PoolingTab";
 
 const Dashboard: React.FC = () => {
@@ -39,8 +39,8 @@ const Dashboard: React.FC = () => {
       <div className="bg-white p-4 rounded-lg shadow-md">
         {activeTab === "routes" && <RoutesTab />}
          {activeTab === "compare" && <CompareTab />}
-       {/* {activeTab === "banking" && <BankingTab />}
-        {activeTab === "pooling" && <PoolingTab />}  */}
+        {activeTab === "banking" && <BankingTab />}
+        {/* {activeTab === "pooling" && <PoolingTab />}  */}
       </div>
     </div>
   );
