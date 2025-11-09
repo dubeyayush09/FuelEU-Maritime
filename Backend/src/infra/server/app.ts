@@ -1,6 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const cors = require("cors"); // ✅ correct import
+import routesRouter from "../../adapters/inbound/http/routesRouter";
 
 dotenv.config(); // ✅ loads .env variables
 
@@ -13,5 +14,6 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.send("FuelEU Maritime Backend is running 🚢");
 });
+app.use("/routes", routesRouter);
 
 module.exports = app; // ✅ CommonJS export
