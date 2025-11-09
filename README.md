@@ -259,7 +259,7 @@ FuelEU-Maritime/
 **Ayush Dubey**  
 🎓 MCA, Maulana Azad National Institute of Technology (MANIT), Bhopal  
 🌐 [GitHub](https://github.com/dubeyayush09)  
-📧 Email: `your.email@example.com`  
+📧 Email: dubeyayush09@gmail.com  
 
 ---
 
